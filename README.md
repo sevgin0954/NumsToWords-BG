@@ -1,1 +1,1 @@
-# Convert integral num to words in Bulgarian language.
+# Convert integral num (0 - 999) to words in Bulgarian language.
