@@ -1,4 +1,5 @@
 ﻿using System;
+
 class NumToWordsBG
 {
     static string[] unitsAndTensBG = { "едно", "две", "три", "четири", "пет", "шест", "седем", "осем", "девет",
@@ -6,6 +7,7 @@ class NumToWordsBG
         "седемнадесет", "осемнадесет","деветнадесет", "двадесет" };
     static string[] hundredsBG = { "сто", "двеста", "триста", "четиристотин", "петстотин", "шестстотин", "седемстотин",
             "осемстотин", "деветстотин" };
+
     static void Main()
     {
         while (true)
@@ -15,6 +17,7 @@ class NumToWordsBG
             Console.WriteLine(NumToWords(n));
         }
     }
+
     static string NumToWords(int n)
     {
         if (n == 0)
@@ -54,6 +57,7 @@ class NumToWordsBG
             }
             return word;
         }
+
         return "to big or to small number (0 - 999)";
     }
 }
