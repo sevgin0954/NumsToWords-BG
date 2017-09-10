@@ -12,7 +12,7 @@ class NumToWordsBG
     {
         while (true)
         {
-            Console.Write("Въведи число (0 - 100):");
+            Console.Write("Въведи число (0 - 999):");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine(NumToWords(n));
         }
